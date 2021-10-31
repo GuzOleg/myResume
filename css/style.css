@@ -1,0 +1,225 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #F5F7FA;
+}
+
+.main-conteiner {
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    background: #ffff;
+    margin: 40px auto;
+    /* background: #F5F7FA; */
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+/* Main content Section */
+
+.main-content {
+    padding: 100px 90px;
+}
+
+/* About Section */
+.about-me {
+    margin-bottom: 40px;
+}
+    
+.about-prof {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.about-me-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000;
+    margin-bottom: 25px;
+}
+
+.about-me-description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    width: 400px;
+}
+/*   My project cection */
+
+.my-projects {
+    margin: 0 0 50px 0;
+}
+.main-content-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000;
+    margin-bottom: 10px;
+}
+.project-item {
+    color: #000;
+    font-weight: 700;
+}
+.my-project-list {
+    padding: 0 0 0 18px;
+    font-weight: 700;
+}
+.my-project-links {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.my-project-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-left: 7px;
+}
+.my-project-bracket {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+}
+/* ------- Expirience Section ---------*/
+
+.my-experience {
+    margin: 0 0 50px 0;
+    width: 510px;
+}
+
+.my-experience-company {
+    color: #fb6d3a;
+}
+
+.my-experience-position {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px; 
+    color: #000;
+    margin: 0 0 10px 0;
+}
+.my-experience-period {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin: 0 0 15px 0;
+}
+.my-education-devider,
+.my-experience-devider {
+    color: #000;
+}
+.my-experience-duties {
+padding: 0 0 0 18px;
+}
+.my-experience-duty {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.my-experience-conpany-blok {
+    margin: 0 15px 0 0;
+}
+
+/*------------ Education Section -----------*/
+
+.my-education-univer {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+    margin-bottom: 10px;
+}
+.my-education-speciality {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px; 
+    color: #000;
+    margin: 0 0 10px 0;
+}
+.my-education-period {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin: 0 0 15px 0;
+}
+
+/*----------- Sidebar Section -------------*/
+.sitebar-section {
+    background-color: #1E2939;
+    width: 370px;
+    padding: 40px 0;
+}
+.contact {
+    margin: 50px 0 0 40px;
+
+}
+.skills {
+    margin: 50px 0 0 40px;
+}
+
+.softSkills {
+    margin: 50px 0 0 40px;
+}
+.sidebar-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #ffff;
+    margin-bottom: 10px;
+}
+/*---------- Contact section --------------*/
+.contact-tipe {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 5px;
+    color: #fff;
+}
+.contact-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #565E6A;
+    
+}
+.soft-skills-list,
+.skills-list {
+    padding: 0 0 0 17px;
+}
+
+.soft-skills-list1,
+.skills-list1 {
+    color: #FB6D3A;
+}
+
+.soft-skills-list-text,
+.skills-list-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffff;
+}
